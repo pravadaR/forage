@@ -1,133 +1,27 @@
-/* Reset */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: Arial;
 }
-
-/* Body */
-body {
-  background: #f4f8fb;
-}
-
-/* Navbar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #0d47a1;
-  color: white;
-  padding: 15px 30px;
-}
-
-.navbar ul {
-  list-style: none;
-  display: flex;
-}
-
-.navbar li {
-  margin-left: 20px;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-}
-
-/* Hero Section */
-.hero {
-  text-align: center;
-  padding: 60px 20px;
-  background: linear-gradient(to right, #1565c0, #42a5f5);
-  color: white;
-}
-
-.hero h1 {
+h1 {
+  color: Red;
   font-size: 36px;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  font-size: 18px;
-}
-
-/* Container */
-.container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  padding: 30px;
-  gap: 20px;
-  max-width: 1100px;
-  margin: auto;
-}
-
-/* Cards */
-.card {
-  background: white;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
-  transition: transform 0.2s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-.card h2 {
-  margin-bottom: 10px;
-  color: #0d47a1;
-}
-
-.card p {
-  color: #555;
-  font-size: 15px;
-}
-
-/* Footer */
-footer {
   text-align: center;
-  padding: 20px;
-  background: #0d47a1;
-  color: white;
-  margin-top: 30px;
+  text-shadow: 2px 2px 4px rgba(22, 43, 200, 0.5);
 }
-
-/* Mobile */
-@media (max-width: 600px) {
-  .hero h1 {
-    font-size: 26px;
-  }
-
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .navbar ul {
-    flex-direction: column;
-    margin-top: 10px;
-  }
-
-  .navbar li {
-    margin: 5px 0;
-  }
+h1:hover {
+  color: darkred;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
 }
-/* Author name */
-.author {
-  margin-top: 10px;
+p {
   font-size: 18px;
-  font-weight: 500;
+  color: Black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
 }
-
-/* Project description */
-.project-info {
-  max-width: 900px;
-  margin: 20px auto;
-  padding: 15px 25px;
-  text-align: center;
-  color: #444;
-  font-size: 16px;
+body {
+  background-color: rgb(122, 218, 233);
+}
+* {
+  font-family: "Roboto", Arial, sans-serif;
 }
