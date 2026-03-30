@@ -1,0 +1,27 @@
+* {
+  font-family: Arial;
+}
+h1 {
+  color: Red;
+  font-size: 36px;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(22, 43, 200, 0.5);
+}
+h1:hover {
+  color: darkred;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+p {
+  font-size: 18px;
+  color: Black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+}
+body {
+  background-color: rgb(122, 218, 233);
+}
+* {
+  font-family: "Roboto", Arial, sans-serif;
+}
